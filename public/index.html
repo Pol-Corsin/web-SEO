@@ -1,11 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubre Nepal: un país de montañas extraordinarias, templos históricos, tradiciones milenarias y una cultura llena de contrastes.">
+  <meta name="theme-color" content="#142b45">
+  <title>Descubre Nepal | Cultura, naturaleza y aventura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Nepal, volver al inicio"><span class="brand-mark">N</span><span>NEPAL<span class="brand-sub">TIERRA DE CONTRASTES</span></span></a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="index.html" aria-current="page">Inicio</a>
+        <a href="costumbres.html">Cultura</a>
+        <a href="gastronomia.html">Gastronomía</a>
+        <a href="turismo.html">Turismo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero hero-home" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=2200&q=85" alt="Paisaje de montaña del Himalaya en Nepal con banderas de oración" width="2200" height="1300" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">Entre el Himalaya y las llanuras del sur</p>
+        <h1 id="hero-title">Descubre la magia de Nepal</h1>
+        <p>Un viaje por paisajes que quitan el aliento, culturas ancestrales y sabores que cuentan historias.</p>
+        <a class="button button-light" href="turismo.html">Explorar Nepal <span aria-hidden="true">→</span></a>
+      </div>
+      <span class="hero-caption">Himalaya · Nepal</span>
+    </section>
+
+    <section class="intro-section section-wrap">
+      <div class="section-heading">
+        <p class="eyebrow">Un país extraordinario</p>
+        <h2>Pequeño en el mapa, inmenso en experiencias</h2>
+      </div>
+      <div class="intro-copy">
+        <p>Nepal se encuentra en el sur de Asia, entre la India y China, y alberga algunos de los paisajes más espectaculares del planeta. Desde las cumbres del Himalaya hasta las llanuras subtropicales, su geografía reúne una diversidad sorprendente.</p>
+        <p>Su riqueza también está en sus gentes: distintas comunidades, lenguas, religiones y tradiciones conviven en un país donde la hospitalidad forma parte de la vida cotidiana.</p>
+      </div>
+    </section>
+
+    <section class="feature-section section-wrap">
+      <div class="section-heading centered">
+        <p class="eyebrow">Conoce sus distintas facetas</p>
+        <h2>Tres formas de descubrir Nepal</h2>
+        <p>Adéntrate en su identidad a través de la cultura, la cocina y sus destinos más emblemáticos.</p>
+      </div>
+      <div class="card-grid three-columns">
+        <article class="feature-card">
+          <a class="image-link" href="costumbres.html" aria-label="Descubrir la cultura y las costumbres de Nepal">
+            <img src="https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=900&q=80" alt="Templo tradicional y arquitectura histórica en Katmandú" width="900" height="650" loading="lazy">
+          </a>
+          <div class="card-body"><p class="card-kicker">01 · Identidad</p><h3>Cultura y costumbres</h3><p>Festividades, rituales y tradiciones que reflejan la diversidad cultural nepalí.</p><a class="text-link" href="costumbres.html">Conocer sus tradiciones <span aria-hidden="true">→</span></a></div>
+        </article>
+        <article class="feature-card">
+          <a class="image-link" href="gastronomia.html" aria-label="Descubrir la gastronomía de Nepal">
+            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80" alt="Empanadillas momo servidas en un plato" width="900" height="650" loading="lazy">
+          </a>
+          <div class="card-body"><p class="card-kicker">02 · Sabores</p><h3>Gastronomía nepalí</h3><p>Platos reconfortantes, especias aromáticas y recetas con raíces regionales.</p><a class="text-link" href="gastronomia.html">Descubrir sus sabores <span aria-hidden="true">→</span></a></div>
+        </article>
+        <article class="feature-card">
+          <a class="image-link" href="turismo.html" aria-label="Descubrir los destinos turísticos de Nepal">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=80" alt="Cumbres nevadas del Himalaya bajo un cielo despejado" width="900" height="650" loading="lazy">
+          </a>
+          <div class="card-body"><p class="card-kicker">03 · Lugares</p><h3>Naturaleza y turismo</h3><p>Montañas, ciudades históricas, lagos y espacios naturales únicos.</p><a class="text-link" href="turismo.html">Explorar destinos <span aria-hidden="true">→</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="quote-inner"><p class="eyebrow light">La esencia de Nepal</p><blockquote>“Un lugar donde cada camino conduce a un paisaje y cada tradición guarda una historia.”</blockquote><a class="text-link light-link" href="costumbres.html">Conocer la cultura nepalí <span aria-hidden="true">→</span></a></div>
+    </section>
+
+    <section class="highlights section-wrap">
+      <div class="section-heading"><p class="eyebrow">Mucho más que montañas</p><h2>Lo que hace único a Nepal</h2></div>
+      <div class="highlight-list">
+        <article><span class="highlight-number">01</span><div><h3>El techo del mundo</h3><p>Ocho de las catorce montañas del planeta que superan los 8.000 metros se encuentran en el Himalaya nepalí.</p></div></article>
+        <article><span class="highlight-number">02</span><div><h3>Una diversidad cultural excepcional</h3><p>Numerosos grupos étnicos, idiomas y prácticas religiosas forman un mosaico cultural fascinante.</p></div></article>
+        <article><span class="highlight-number">03</span><div><h3>Patrimonio e historia</h3><p>Templos, plazas históricas y monumentos muestran siglos de arte y arquitectura, especialmente en el valle de Katmandú.</p></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark">N</span><span>NEPAL<span class="brand-sub">TIERRA DE CONTRASTES</span></span></a><p>Un recorrido por la cultura, los sabores y los paisajes de Nepal.</p><nav aria-label="Navegación del pie de página"><a href="index.html">Inicio</a><a href="costumbres.html">Cultura</a><a href="gastronomia.html">Gastronomía</a><a href="turismo.html">Turismo</a></nav><small>Proyecto educativo DAW · 2026</small></div>
+  </footer>
 </body>
 </html>
